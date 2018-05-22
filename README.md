@@ -6,7 +6,7 @@ title: UD Examples
 This repository is for producing example visualizations for UD graphs
 
 ~~~ ann
-Barack Obama is the current president.
+Barack Obama is the former president.
 T1 PERSON 0 12 Barack Obama
 ~~~
 
