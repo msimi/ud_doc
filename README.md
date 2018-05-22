@@ -1,2 +1,4 @@
-# ud_doc
-This repository is for producing example visualizations for UD graphs
+Annodoc: annotation documentation support system
+================================================
+
+Home page: <http://spyysalo.github.io/annodoc>
