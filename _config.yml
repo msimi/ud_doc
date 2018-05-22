@@ -1,2 +1,34 @@
 theme: jekyll-theme-cayman
-kramdown: enable_coderay: false
+
+# Build settings
+
+source: .
+destination: ./_site
+markdown: kramdown
+# don't change the following; coderay will break the embedded
+# annotations.
+kramdown:
+  enable_coderay: false
+permalinks: pretty
+# safe: true
+markdown_ext: md
+
+##############################################################################
+
+# Site settings
+
+name: /ud_doc
+baseurl: "/ud_doc"
+homeurl: "https://github.com/msimi/ud_doc/"
+editurl: "https://github.com/msimi/ud_doc/edit/gh-pages"
+issueurl: "https://github.com/msimi/ud_doc/issues"
+
+##############################################################################
+
+# Collection settings
+
+collections:
+  entity:
+    output: true
+  relation:
+output: true
