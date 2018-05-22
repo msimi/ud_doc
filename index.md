@@ -4,7 +4,7 @@ title: UD Examples
 ---
 This repository is for producing example visualizations for UD graphs
 
-## "Il governo sono io, non Walesa e presto vedrò il leader sovietico"
+### <i>"Il governo sono io, non Walesa e presto vedrò il leader sovietico"</i>
 
 <div class="conllu-parse" tabs="yes" id="tut-2947">
 # visual-style 11 5 nsubj color:red
@@ -26,3 +26,33 @@ This repository is for producing example visualizations for UD graphs
 15	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
 </div>
 
+### <i>Sono stati adottati negli Stati Uniti dall'IEEE, e in ambito internazionale dall'ITU.</i>
+
+<div class="conllu-parse" tabs="yes" id="tut-3427">
+# visual-style 12.1 12 cc color:red
+# visual-style 12.1 14 obl:in color:red
+  # visual-style 12.1 18 obl: color:red
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	adottati	adottare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	negli	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Stati	Stati	PROPN	SP	_	3	obl:in	_	_
+7	Uniti	Uniti	PROPN	SP	_	6	flat:name	_	_
+8-9	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+8	da	da	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	IEEE	IEEE	PROPN	SP	_	3	obl:agent	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	12.1:cc	_
+12.1  adottati	adottare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part  _ _
+13	in	in	ADP	E	_	14	case	_	_
+14	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	3	conj:e	12.1:obl:in	_
+15	internazionale	internazionale	ADJ	A	Number=Sing	14	amod	_	_
+16-17	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+16	da	da	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	_	_
+18	ITU	ITU	PROPN	SP	_	12.1	obl:agent	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	3:punct	_
+</div>
