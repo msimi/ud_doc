@@ -4,21 +4,11 @@ title: UD Examples
 ---
 This repository is for producing example visualizations for UD graphs
 
-~~~ ann
-Barack Obama is the former president.
-T1 PERSON 0 12 Barack Obama
-~~~
-
-~~~ sdparse
-Dogs run
-nsubj(run, Dogs)
-~~~
-
 ## "Il governo sono io, non Walesa e presto vedrò il leader sovietico"
 
 <div class="conllu-parse" tabs="yes" id="tut-2947">
-# visual-style 5 11 nsubj color:red
-# visual-style 8 3 nsubj color:red
+# visual-style 11 5 nsubj color:red
+# visual-style 3 8 nsubj color:red
 1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
 2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	governo	governo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
