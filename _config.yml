@@ -20,7 +20,7 @@ markdown_ext: md
 name: ud_doc
 homeurl: ""
 editurl: "https://github.com/msimi/ud_doc/edit/master"
-issueurl: "https://github.com/msimi/ud_doc/issues"
+#issueurl: "https://github.com/msimi/ud_doc/issues"
 
 ##############################################################################
 
