@@ -46,7 +46,7 @@ This repository is for producing example visualizations for UD graphs
 10	IEEE	IEEE	PROPN	SP	_	3	obl:agent	_	SpaceAfter=No
 11	,	,	PUNCT	FF	_	14	punct	_	_
 12	e	e	CCONJ	CC	_	14	cc	12.1:cc	_
-12.1  adottati	adottare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part  _ _
+E.1  adottati	adottare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part  _ _
 13	in	in	ADP	E	_	14	case	_	_
 14	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	3	conj:e	12.1:obl:in	_
 15	internazionale	internazionale	ADJ	A	Number=Sing	14	amod	_	_
@@ -54,5 +54,5 @@ This repository is for producing example visualizations for UD graphs
 16	da	da	ADP	E	_	18	case	_	_
 17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	_	_
 18	ITU	ITU	PROPN	SP	_	12.1	obl:agent	_	SpaceAfter=No
-19	.	.	PUNCT	FS	_	3	punct	3:punct	_
+19	.	.	PUNCT	FS	_	3	punct	_	_
 </div>
