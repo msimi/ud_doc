@@ -14,10 +14,15 @@ permalinks: pretty
 markdown_ext: md
 
 ##############################################################################
+name: Annodoc
+baseurl: "/annodoc"
+homeurl: "https://github.com/spyysalo/annodoc/"
+editurl: "https://github.com/spyysalo/annodoc/edit/gh-pages"
+issueurl: "https://github.com/spyysalo/annodoc/issues"
 
 # Site settings
 
-name: /ud_doc
+name: ud_doc
 baseurl: "/ud_doc"
 homeurl: "https://github.com/msimi/ud_doc/"
 editurl: "https://github.com/msimi/ud_doc/edit/gh-pages"
