@@ -10,17 +10,16 @@ markdown: kramdown
 kramdown:
   enable_coderay: false
 permalinks: pretty
-# safe: true
+safe: true
 markdown_ext: md
 
 ##############################################################################
 
 # Site settings
 
-name: /ud_doc
-baseurl: "/ud_doc"
-homeurl: "https://github.com/msimi/ud_doc/"
-editurl: "https://github.com/msimi/ud_doc/edit/gh-pages"
+name: ud_doc
+homeurl: ""
+editurl: "https://github.com/msimi/ud_doc/edit/master"
 issueurl: "https://github.com/msimi/ud_doc/issues"
 
 ##############################################################################
