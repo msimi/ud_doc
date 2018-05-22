@@ -5,6 +5,11 @@ title: UD Examples
 # ud_doc
 This repository is for producing example visualizations for UD graphs
 
+~~~ ann
+Barack Obama is the current president.
+T1 PERSON 0 12 Barack Obama
+~~~
+
 ## "Il governo sono io, non Walesa e presto vedrò il leader sovietico"
 
 <div class="conllu-parse" tabs="yes" id="tut-2947">
