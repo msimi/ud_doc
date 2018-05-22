@@ -10,6 +10,11 @@ Barack Obama is the current president.
 T1 PERSON 0 12 Barack Obama
 ~~~
 
+~~~ sdparse
+Dogs run
+nsubj(run, Dogs)
+~~~
+
 ## "Il governo sono io, non Walesa e presto vedrò il leader sovietico"
 
 <div class="conllu-parse" tabs="yes" id="tut-2947">
