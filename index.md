@@ -46,7 +46,7 @@ This repository is for producing example visualizations for UD graphs
 12	e	e	CCONJ	CC	_	14	cc	13:cc	_
 13	E12.1	adottare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part  3 conj:e	_	_
 14	in	in	ADP	E	_	14	case	_	_
-15	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	3	conj:e	13:obl:in	_
+15	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	13	obl:in	_	_
 16	internazionale	internazionale	ADJ	A	Number=Sing	14	amod	_	_
 17	da	da	ADP	E	_	18	case	_	_
 18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	_	_
