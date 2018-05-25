@@ -32,6 +32,7 @@ This repository is for producing example visualizations for UD graphs
 # visual-style 13 12 cc color:blue
 # visual-style 13 15 obl:in color:blue
 # visual-style 13 19 obl:agent color:blue
+# visual-style 13 3 conj:e color:blue
 1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 2	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	aux:pass	_	_
 3	adottati	adottare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
@@ -49,7 +50,7 @@ This repository is for producing example visualizations for UD graphs
 15	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	13	obl:in	_	_
 16	internazionale	internazionale	ADJ	A	Number=Sing	15	amod	_	_
 17	da	da	ADP	E	_	19	case	_	_
-18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_
 19	ITU	ITU	PROPN	SP	_	13	obl:agent	_	SpaceAfter=No
 20	.	.	PUNCT	FS	_	3	punct	_	_
 
