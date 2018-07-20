@@ -5,7 +5,7 @@ title: UD Examples
 This repository is for producing example visualizations for UD graphs
 
 <div class="conllu-parse" tabs="yes" id="xsubj">
-# visual-style 8 6 nsubj:xsubj color:blue
+# visual-style 8 6 nsubj color:blue
 1 La  _ _ _ _ 2 det _ _
 2 mamma _ _ _ _ 4 nsubj  _ _
 3 ha  _ _ _ _ 4 aux  _ _
@@ -15,8 +15,8 @@ This repository is for producing example visualizations for UD graphs
 7 di  _ _ _ _ 8 case  _ _
 8 comprare  _ _ _ _ 14  xcomp _ _
 9 il  _ _ _ _ 10  det _ _
-10  pane  _ _ _ 8 obj _ _
-11  . _ _ _ _ 2 punct _ _
+10  pane  _ _ _ _ 8 obj _ _
+11  . _ _ _ _ 4 punct _ _
 </div>
 
 
