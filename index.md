@@ -11,7 +11,7 @@ This repository is for producing example visualizations for UD graphs
 3 ha  _ _ _ _ 4 aux _ _
 4 chiesto _ _ _ _ 0 root _ _
 5 a _ _ _ _ 6 case  _ _
-6 Maria _ _ _ _ 4 obl _ _
+6 Maria _ _ _ _ 4 obl 8:nsubj:xsubj _
 7 di  _ _ _ _ 8 case  _ _
 8 comprare  _ _ _ _ 4 xcomp _ _
 9 il  _ _ _ _ 10  det _ _
