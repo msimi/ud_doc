@@ -6,8 +6,10 @@ This repository is for producing example visualizations for UD graphs
 
 <table id="control-raising-example1"> <!-- La mamma ha chiesto a Maria di comprare il pane .-->
 <thead><tr><th>Basic</th><th>Enhanced</th></tr></thead>
-<tbody><tr><td width="600">
+<tbody>
+  <tr><td width="800">
 <div class="conllu-parse">
+# visual-style 8 6 nsubj:xsubj color:blue
 1 La  _ _ _ _ 2 det _ _
 2 mamma _ _ _ _ 4 nsubj  _ _
 3 ha    _ _ _ _ 4 aux  _ _
@@ -20,18 +22,7 @@ This repository is for producing example visualizations for UD graphs
 10  pane  _ _ _ 8 obj _ _
 11  .     _ _ _ _ 2 punct _ _
 </div>
-</td><td width="600">
-<div class="conllu-parse">
-# visual-style 4 1 nsubj color:blue
-1 Mary  _ _ _ _ 2 nsubj 4:nsubj _
-2 wants _ _ _ _ 0 root  _ _
-3 to    _ _ _ _ 4 mark  _ _
-4 buy   _ _ _ _ 2 xcomp _ _
-5 a     _ _ _ _ 6 det   _ _
-6 book  _ _ _ _ 4 obj   _ _
-7 .     _ _ _ _ 2 punct _ _
-</div>
-</td></tr></tbody>
+</td></tbody>
 </table>
 
 ### <i>"Il governo sono io, non Walesa e presto vedrò il leader sovietico"</i>
