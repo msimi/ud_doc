@@ -19,6 +19,19 @@ This repository is for producing example visualizations for UD graphs
 11  . _ _ _ _ 4 punct _ _
 </div>
 
+<div class="conllu-parse" tabs="yes" width="800px" id="dep propagation">
+# visual-style  5 2 nsubj color:blue
+# visual-style  5 6 obj color:blue
+1 La  _ _ _ _ 2 det _ _
+2 libreria _ _ _ _ 3 nsubj 5:nsubj _
+3 compra  _ _ _ _ 0 root _ _
+4 e _ _ _ _ 5 cc _ _
+5 vende _ _ _ _ 3 conj  _ _
+6 libri _ _ _ _ 3 obj  5:obj
+7 usati  _ _ _ _ 6 amod  _ _
+8 . _ _ _ _ 3 punct _ _
+</div>
+
 
 ### <i>"Il governo sono io, non Walesa e presto vedrò il leader sovietico"</i>
 
