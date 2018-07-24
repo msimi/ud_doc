@@ -43,6 +43,15 @@ This repository is for producing example visualizations for UD graphs
 7 . _ _ _ _ 3 punct _ _
 </div>
 
+<div class="conllu-parse" tabs="yes" width="800px" id="dep propagation">
+# visual-style  5 2 obj color:blue
+# visual-style  2 3 ref color:blue
+1 Il  _ _ _ _ 2 det _ _
+2 libro _ _ _ _ 0 root 5:obj _
+3 che  _ _ _ _ _ _ 2:ref _
+4 ho  _ _ _ _ 5 aux _ _
+5 letto _ _ _ _ 2 acl:relcl  _ _
+</div>
 
 ### <i>"Il governo sono io, non Walesa e presto vedrò il leader sovietico"</i>
 
