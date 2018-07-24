@@ -40,7 +40,7 @@ This repository is for producing example visualizations for UD graphs
 4 libri _ _ _ _ 3 obj _ _
 5 e _ _ _ _ 6 cc  _ _
 6 riviste _ _ _ _ 4 conj  3:obj _
-. _ _ _ _ 3 punct _ _
+7 . _ _ _ _ 3 punct _ _
 </div>
 
 
