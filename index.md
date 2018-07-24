@@ -27,7 +27,7 @@ This repository is for producing example visualizations for UD graphs
 3 compra  _ _ _ _ 0 root _ _
 4 e _ _ _ _ 5 cc _ _
 5 vende _ _ _ _ 3 conj  _ _
-6 libri _ _ _ _ 3 obj  5:obj
+6 libri _ _ _ _ 3 obj  5:obj  _
 7 usati  _ _ _ _ 6 amod  _ _
 8 . _ _ _ _ 3 punct _ _
 </div>
