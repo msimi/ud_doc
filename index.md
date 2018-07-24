@@ -58,11 +58,11 @@ This repository is for producing example visualizations for UD graphs
 # visual-style  5 7 obl:a color:blue
 1 Dopo  _ _ _ _ 3 mark _ _
 2 aver _ _ _ _ 3 aux _ _
-3 cenato  _ _ _ _ 5 advcl advcl:dopo _
+3 cenato  _ _ _ _ 5 advcl:dopo _ _
 4 è  _ _ _ _ 5 aux _ _
 5 andato _ _ _ _ 0 root  _ _
 6 a _ _ _ _ 7 case  _ _
-7 casa  _ _ _ _ 5 obl obl:a _
+7 casa  _ _ _ _ 5 obl:a _ _
 </div>
 
 ### <i>"Il governo sono io, non Walesa e presto vedrò il leader sovietico"</i>
