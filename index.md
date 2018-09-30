@@ -114,5 +114,23 @@ This repository is for producing example visualizations for UD graphs
 18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_
 19	ITU	ITU	PROPN	SP	_	13	obl:agent	_	SpaceAfter=No
 20	.	.	PUNCT	FS	_	3	punct	_	_
+</div>
 
+### <i>Sono stati adottati negli Stati Uniti dall'IEEE, e in ambito internazionale dall'ITU.</i>
+
+<div class="conllu-parse" tabs="yes" id="tut-3427">
+1 In  in  ADP E _ 3 case  _ _
+2 l'  il  DET RD  Definite=Def|Number=Sing|PronType=Art 3 det _ _
+3 intimità  intimità  NOUN  S Gender=Fem  6 obl _ _
+4 lei lei PRON  PE  Number=Sing|Person=3|PronType=Prs 6 nsubj _ _
+5 lo  lo  PRON  PC  Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs  6 obj _ _
+6 chiamava  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  0  root _ _
+7 " " PUNCT FB  _ 8 punct _ SpaceAfter=No
+8 capitano  capitano  NOUN  S Gender=Masc|Number=Sing 6  xcomp _ SpaceAfter=No
+9 " " PUNCT   FB  _ 8  punct _ _
+10  e e CCONJ CC  _ cc  _ _
+11  lui lui PRON  PE  Gender=Masc|Number=Sing|Person=3|PronType=Prs 6 conj  _ _
+12  " " PUNCT FB  _ 13  punct _ SpaceAfter=No
+13  capo  capo  NOUN  S Gender=Masc|Number=Sing 11  orphan  _ erole=xcomp|SpaceAfter=No
+14  " " PUNCT FB  _ 13  punct _ SpaceAfter=No
 </div>
