@@ -118,7 +118,7 @@ This repository is for producing example visualizations for UD graphs
 
 ### <i>Nell'intimità lei lo chiamava "capitano" e lui "capo"</i>
 
-<div class="conllu-parse" tabs="yes" id="tut-3427">
+<div class="conllu-parse" tabs="yes" id="isst_tanl-1052">
 1 In  in  ADP E _ 3 case  _ _
 2 l'  il  DET RD  Definite=Def|Number=Sing|PronType=Art 3 det _ _
 3 intimità  intimità  NOUN  S Gender=Fem  6 obl _ _
@@ -130,3 +130,18 @@ This repository is for producing example visualizations for UD graphs
 9  lui lui PRON  PE  Gender=Masc|Number=Sing|Person=3|PronType=Prs 6 conj  _ _
 10  capo  capo  NOUN  S Gender=Masc|Number=Sing 9  orphan  _ erole=xcomp|SpaceAfter=No
 </div>
+
+<div class="conllu-parse" tabs="yes" id="isst_tanl-1052">
+1 In  in  ADP E _ 3 case  _ _
+2 l'  il  DET RD  Definite=Def|Number=Sing|PronType=Art 3 det _ _
+3 intimità  intimità  NOUN  S Gender=Fem  6 obl _ _
+4 lei lei PRON  PE  Number=Sing|Person=3|PronType=Prs 6 nsubj _ _
+5 lo  lo  PRON  PC  Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs  6 obj _ _
+6 chiamava  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  0  root _ _
+7 capitano  capitano  NOUN  S Gender=Masc|Number=Sing 6  xcomp _ SpaceAfter=No
+8  e e CCONJ CC  _ 6 cc  _ _ 
+9  lui lui PRON  PE  Gender=Masc|Number=Sing|Person=3|PronType=Prs 9.1 nsubj  _ _
+9.1 chiamava  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  6  conj _ _ 
+10  capo  capo  NOUN  S Gender=Masc|Number=Sing 9.1  xcomp  _ _
+</div>
+
