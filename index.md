@@ -105,7 +105,7 @@ This repository is for producing example visualizations for UD graphs
 9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 10	IEEE	IEEE	PROPN	SP	_	3	obl:agent	_	SpaceAfter=No
 11	,	,	PUNCT	FF	_	15	punct	_	_
-12	e	e	CCONJ	CC	_	15	cc	13:cc	_
+12	e	e	CCONJ	CC	_	13	cc	13:cc	_
 13	E12.1	adottare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part  3 conj:e	_	_
 14	in	in	ADP	E	_	15	case	_	_
 15	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	13	obl:in	_	_
@@ -132,9 +132,10 @@ This repository is for producing example visualizations for UD graphs
 </div>
 
 <div class="conllu-parse" tabs="yes" id="isst_tanl-1052">
-# visual-style 10 9 cc color:blue
-# visual-style 10 6 conj:e color:blue
+# visual-style 10 9 nsubj color:blue
+# visual-style 10 8 cc color:blue
 # visual-style 10 11 xcomp color:blue
+# visual-style 6 10 conj:e color:blue
 1 In  in  ADP E _ 3 case  _ _
 2 l'  il  DET RD  Definite=Def|Number=Sing|PronType=Art 3 det _ _
 3 intimità  intimità  NOUN  S Gender=Fem  6 obl _ _
