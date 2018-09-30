@@ -133,6 +133,7 @@ This repository is for producing example visualizations for UD graphs
 
 <div class="conllu-parse" tabs="yes" id="isst_tanl-1052">
 # visual-style 10 9 cc color:blue
+# visual-style 10 6 conj:e color:blue
 # visual-style 10 11 xcomp color:blue
 1 In  in  ADP E _ 3 case  _ _
 2 l'  il  DET RD  Definite=Def|Number=Sing|PronType=Art 3 det _ _
@@ -143,7 +144,7 @@ This repository is for producing example visualizations for UD graphs
 7 capitano  capitano  NOUN  S Gender=Masc|Number=Sing 6  xcomp _ SpaceAfter=No
 8  e e CCONJ CC  _ 10 cc  _ _ 
 9  lui lui PRON  PE  Gender=Masc|Number=Sing|Person=3|PronType=Prs 10 nsubj  _ _
-10  E.6  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  6  conj _ _ 
+10  E.6  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  6  conj:e _ _ 
 11  capo  capo  NOUN  S Gender=Masc|Number=Sing 10  xcomp  _ _
 </div>
 
