@@ -140,8 +140,8 @@ This repository is for producing example visualizations for UD graphs
 6 chiamava  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  0  root _ _
 7 capitano  capitano  NOUN  S Gender=Masc|Number=Sing 6  xcomp _ SpaceAfter=No
 8  e e CCONJ CC  _ 6 cc  _ _ 
-9  lui lui PRON  PE  Gender=Masc|Number=Sing|Person=3|PronType=Prs 9.1 nsubj  _ _
-9.1 chiamava  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  6  conj _ _ 
-10  capo  capo  NOUN  S Gender=Masc|Number=Sing 9.1  xcomp  _ _
+9  lui lui PRON  PE  Gender=Masc|Number=Sing|Person=3|PronType=Prs 10 nsubj  _ _
+10  E.6  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  6  conj _ _ 
+11  capo  capo  NOUN  S Gender=Masc|Number=Sing 10  xcomp  _ _
 </div>
 
