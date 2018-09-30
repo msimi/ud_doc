@@ -133,7 +133,7 @@ This repository is for producing example visualizations for UD graphs
 
 <div class="conllu-parse" tabs="yes" id="isst_tanl-1052">
 # visual-style 10 9 cc color:blue
-# visual-style 10 11 obl:in color:blue
+# visual-style 10 11 xcomp color:blue
 1 In  in  ADP E _ 3 case  _ _
 2 l'  il  DET RD  Definite=Def|Number=Sing|PronType=Art 3 det _ _
 3 intimità  intimità  NOUN  S Gender=Fem  6 obl _ _
