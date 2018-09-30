@@ -125,12 +125,8 @@ This repository is for producing example visualizations for UD graphs
 4 lei lei PRON  PE  Number=Sing|Person=3|PronType=Prs 6 nsubj _ _
 5 lo  lo  PRON  PC  Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs  6 obj _ _
 6 chiamava  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  0  root _ _
-7 " " PUNCT FB  _ 8 punct _ SpaceAfter=No
-8 capitano  capitano  NOUN  S Gender=Masc|Number=Sing 6  xcomp _ SpaceAfter=No
-9 " " PUNCT FB  _ 8 punct _ _
-10  e e CCONJ CC  _ 6 cc  _ _
-11  lui lui PRON  PE  Gender=Masc|Number=Sing|Person=3|PronType=Prs 6 conj  _ _
-12  " " PUNCT FB  _ 13  punct _ SpaceAfter=No
-13  capo  capo  NOUN  S Gender=Masc|Number=Sing 11  orphan  _ erole=xcomp|SpaceAfter=No
-14  " " PUNCT FB  _ 13  punct _ SpaceAfter=No
+7 capitano  capitano  NOUN  S Gender=Masc|Number=Sing 6  xcomp _ SpaceAfter=No
+8  e e CCONJ CC  _ 6 cc  _ _
+9  lui lui PRON  PE  Gender=Masc|Number=Sing|Person=3|PronType=Prs 6 conj  _ _
+10  capo  capo  NOUN  S Gender=Masc|Number=Sing 9  orphan  _ erole=xcomp|SpaceAfter=No
 </div>
