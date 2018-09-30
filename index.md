@@ -126,12 +126,14 @@ This repository is for producing example visualizations for UD graphs
 5 lo  lo  PRON  PC  Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs  6 obj _ _
 6 chiamava  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  0  root _ _
 7 capitano  capitano  NOUN  S Gender=Masc|Number=Sing 6  xcomp _ SpaceAfter=No
-8  e e CCONJ CC  _ 6 cc  _ _
+8  e e CCONJ CC  _ 9 cc  _ _
 9  lui lui PRON  PE  Gender=Masc|Number=Sing|Person=3|PronType=Prs 6 conj  _ _
 10  capo  capo  NOUN  S Gender=Masc|Number=Sing 9  orphan  _ erole=xcomp|SpaceAfter=No
 </div>
 
 <div class="conllu-parse" tabs="yes" id="isst_tanl-1052">
+# visual-style 10 9 cc color:blue
+# visual-style 10 11 obl:in color:blue
 1 In  in  ADP E _ 3 case  _ _
 2 l'  il  DET RD  Definite=Def|Number=Sing|PronType=Art 3 det _ _
 3 intimità  intimità  NOUN  S Gender=Fem  6 obl _ _
@@ -139,7 +141,7 @@ This repository is for producing example visualizations for UD graphs
 5 lo  lo  PRON  PC  Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs  6 obj _ _
 6 chiamava  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  0  root _ _
 7 capitano  capitano  NOUN  S Gender=Masc|Number=Sing 6  xcomp _ SpaceAfter=No
-8  e e CCONJ CC  _ 6 cc  _ _ 
+8  e e CCONJ CC  _ 10 cc  _ _ 
 9  lui lui PRON  PE  Gender=Masc|Number=Sing|Person=3|PronType=Prs 10 nsubj  _ _
 10  E.6  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  6  conj _ _ 
 11  capo  capo  NOUN  S Gender=Masc|Number=Sing 10  xcomp  _ _
