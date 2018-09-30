@@ -119,16 +119,16 @@ This repository is for producing example visualizations for UD graphs
 ### <i>Nell'intimità lei lo chiamava "capitano" e lui "capo"</i>
 
 <div class="conllu-parse" tabs="yes" id="isst_tanl-1052">
-1 In  in  ADP E _ 3 case  _ _
-2 l'  il  DET RD  Definite=Def|Number=Sing|PronType=Art 3 det _ _
-3 intimità  intimità  NOUN  S Gender=Fem  6 obl _ _
-4 lei lei PRON  PE  Number=Sing|Person=3|PronType=Prs 6 nsubj _ _
-5 lo  lo  PRON  PC  Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs  6 obj _ _
-6 chiamava  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  0  root _ _
-7 capitano  capitano  NOUN  S Gender=Masc|Number=Sing 6  xcomp _ SpaceAfter=No
-8  e e CCONJ CC  _ 9 cc  _ _
-9  lui lui PRON  PE  Gender=Masc|Number=Sing|Person=3|PronType=Prs 6 conj  _ _
-10  capo  capo  NOUN  S Gender=Masc|Number=Sing 9  orphan  _ erole=xcomp|SpaceAfter=No
+1 In  _ _ _ _ 3 case  _ _
+2 l'  _ _ _ _ 3 det _ _
+3 intimità  _ _ _ _ 6 obl _ _
+4 lei _ _ _ _ 6 nsubj _ _
+5 lo  _ _ _ _ 6 obj _ _
+6 chiamava  _ _ _ _ 0  root _ _
+7 capitano  _ _ _ _ 6  xcomp _ _
+8  e  _ _ _ _  cc  _ _
+9  lui  _ _ _ _ 6 conj  _ _
+10  capo  _ _ _ _ 9  orphan  _ _
 </div>
 
 <div class="conllu-parse" tabs="yes" id="isst_tanl-1052">
@@ -136,16 +136,16 @@ This repository is for producing example visualizations for UD graphs
 # visual-style 10 8 cc color:blue
 # visual-style 10 11 xcomp color:blue
 # visual-style 6 10 conj:e color:blue
-1 In  in  ADP E _ 3 case  _ _
-2 l'  il  DET RD  Definite=Def|Number=Sing|PronType=Art 3 det _ _
-3 intimità  intimità  NOUN  S Gender=Fem  6 obl _ _
-4 lei lei PRON  PE  Number=Sing|Person=3|PronType=Prs 6 nsubj _ _
-5 lo  lo  PRON  PC  Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs  6 obj _ _
-6 chiamava  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  0  root _ _
-7 capitano  capitano  NOUN  S Gender=Masc|Number=Sing 6  xcomp _ SpaceAfter=No
-8  e e CCONJ CC  _ 10 cc  _ _ 
-9  lui lui PRON  PE  Gender=Masc|Number=Sing|Person=3|PronType=Prs 10 nsubj  _ _
-10  E.6  chiamare  VERB  V Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin  6  conj:e _ _ 
-11  capo  capo  NOUN  S Gender=Masc|Number=Sing 10  xcomp  _ _
+1 In  _ _ _ _ 3 case  _ _
+2 l'  _ _ _ _ 3 det _ _
+3 intimità  _ _ _ _ 6 obl _ _
+4 lei _ _ _ _ 6 nsubj _ _
+5 lo  _ _ _ _ 6 obj _ _
+6 chiamava  _ _ _ _ 0  root _ _
+7 capitano  _ _ _ _ 6  xcomp _ _
+8  e  _ _ _ _ 10 cc _ _ 
+9  lui  _ _ _ _ 10 nsubj  _ _
+10  E.6 _ _ _ _ 6  conj:e _ _ 
+11  capo  _ _ _ _ 10  xcomp  _ _
 </div>
 
