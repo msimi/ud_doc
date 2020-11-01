@@ -4,6 +4,22 @@ title: UD Examples
 ---
 This repository is for producing example visualizations for UD graphs
 
+~~~ conllx
+1	Hamad	Hamad	PROPN	SP	_	4	nsubj	4:nsubj	_
+2	Butt	Butt	PROPN	SP	_	1	flat:name	1:flat:name	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+4	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	7:case	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
+7	1994	1994	NUM	N	NumType=Card	4	obl	4:obl:in	_
+8	a	a	ADP	E	_	10	case	10:case	_
+9	32	32	NUM	N	NumType=Card	10	nummod	10:nummod	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	4:obl:a	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	4:punct	_
+~~~ 
+
+
 <div class="conllu-parse" tabs="yes" width="800px" id="xsubj">
 # visual-style  8 6 nsubj:xsubj color:blue
 1 La  _ _ _ _ 2 det _ _
