@@ -4,7 +4,7 @@ title: UD Examples
 ---
 This repository is for producing example visualizations for UD graphs
 
-~~~ conllx
+~~~ conllu
 1	Hamad	Hamad	PROPN	SP	_	4	nsubj	4:nsubj	_
 2	Butt	Butt	PROPN	SP	_	1	flat:name	1:flat:name	_
 3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
